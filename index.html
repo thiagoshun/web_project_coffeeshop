@@ -48,10 +48,10 @@
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes">Receitas</a></li>
             <li>
-              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+              <a class="nav__link">Reservar uma mesa</a>
             </li>
-            <li><a class="nav__link" href="#menu">Menu</a></li>
-            <li><a class="nav__link" href="#about">Contatos</a></li>
+            <li><a class="nav__link">Menu</a></li>
+            <li><a class="nav__link">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -80,7 +80,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <p class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
@@ -88,6 +88,7 @@
           <div class="recipes__videos">
             <div>
               <iframe
+                class="recipes__iframe"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=yaRUdsCtKs6kn7xJ"
@@ -97,12 +98,13 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <h3>Receita Aeropress</h3>
-                <h3>~5 min</h3>
+                <h3 class="recipes__text">Receita Aeropress</h3>
+                <h3 class="recipes__text">~5 min</h3>
               </div>
             </div>
             <div>
               <iframe
+                class="recipes__iframe"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=V0eJJh9HsohttOji"
@@ -112,8 +114,8 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <h3>Receita de Prensa Francesa</h3>
-                <h3>~15min</h3>
+                <h3 class="recipes__text">Receita de Prensa Francesa</h3>
+                <h3 class="recipes__text">~15min</h3>
               </div>
             </div>
           </div>

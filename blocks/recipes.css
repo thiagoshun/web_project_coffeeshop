@@ -30,8 +30,7 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  margin-bottom: 24px;
-  border: none;
+
   gap: 40px;
 }
 
@@ -45,4 +44,13 @@
   line-height: 30px;
   gap: 40px;
   padding-bottom: 215px;
+}
+
+.recipes__text {
+  margin: 0;
+}
+
+.recipes__iframe {
+  border: none;
+  margin-bottom: 24px;
 }
