@@ -1,4 +1,4 @@
-. page {
+.page {
   background-color: #fff;
   min-width: 1100px;
   max-width: 1600px;
@@ -6,6 +6,6 @@
   font-size: 16px;
   line-height: 20px;
   font-family: "Inter", sans-serif, Arial, Helvetica;
-  z-index: 1;
+
   color: #000;
 }
