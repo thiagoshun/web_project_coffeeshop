@@ -1,4 +1,15 @@
-@import url(../blocks/page.css);
+.page {
+  background-color: #fff;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter", sans-serif, Arial, Helvetica;
+
+  color: #000;
+}
+
 @import url(../blocks/nav.css);
 @import url(../blocks/header.css);
 @import url(../blocks/content.css);
