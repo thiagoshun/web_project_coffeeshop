@@ -17,6 +17,7 @@
   flex-direction: column;
   list-style: none;
   row-gap: 16px;
+  color: black;
 }
 
 .card__list-item {

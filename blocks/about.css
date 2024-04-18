@@ -1,49 +1,50 @@
 .about {
   padding: 0 80px;
   background-color: #0a2850;
-  overflow: hidden;
   display: flex;
   position: relative;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .about__content {
   padding: 119px 0 113px;
   max-width: 660px;
+  row-gap: 20px;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
 }
 
 .about__title {
-  font-family: "Inter";
+  margin: 0;
+  margin-top: 100px;
+  max-width: 251px;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0;
-  margin-top: 110px;
-  color: #ffffff;
+  color: #fff;
   z-index: 1;
 }
 
-.about_paragraph {
-  font-family: "Noto Serif";
+.about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #ffffff;
-  margin: 0;
+  color: #fff;
 }
 
-.about__cicle {
+.about__circle {
   width: 426px;
   height: 426px;
-  border-radius: 100%;
+  position: absolute;
   top: -152px;
   left: -129px;
   z-index: 0;
   background-color: #2f80ed;
-  position: absolute;
+  border-radius: 100%;
 }
