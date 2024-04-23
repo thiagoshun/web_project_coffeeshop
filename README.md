@@ -8,5 +8,4 @@ https://github.com/thiagoshun/web_project_coffeeshop
 
 # Program
 
-HTML
-CSS
+-HTML e CSS
